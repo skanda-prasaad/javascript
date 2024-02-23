@@ -25,3 +25,33 @@ let myFunction = function(){
 }
 
 console.log(typeof (score));
+
+
+
+//// ************ memory **********
+
+// Stack (Primitive) , Heap (Non - Primitive) 
+
+
+//eg for stack
+
+let myName = "skanda"
+let anotherName = myName
+anotherName = "prasad"
+
+console.log(myName);
+console.log(anotherName);
+
+//eg for heap 
+
+let userone = {
+    email:"useronegoogle.com",
+    upi:"user.ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "google.com"
+
+console.log(usertwo.email);
+console.log(userone.email);

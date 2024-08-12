@@ -10,7 +10,7 @@
 // console.log(typeof(valueInNumber));
 // console.log(valueInNumber); 
 
-// let score = null
+// let score = null;
 // console.log(typeof(score));
 // let valueInNumber = Number(score)
 // console.log(typeof(valueInNumber));
@@ -28,9 +28,9 @@
 // console.log(typeof(valueInNumber));
 // console.log(valueInNumber); 
 
-let score = "Skanda"
+// let score = "Skanda"
 //console.log(typeof(score));
-let valueInNumber = Number(score)
+// let valueInNumber = Number(score)
 //console.log(typeof(valueInNumber));
 //console.log(valueInNumber); 
 
@@ -41,9 +41,9 @@ let valueInNumber = Number(score)
 // true => 1
 // false => 0 
 
-let isLoggedIn = 0
+// let isLoggedIn = 0
 
-let booleanLoggedIn = Boolean(isLoggedIn)
+// let booleanLoggedIn = Boolean(isLoggedIn)
 //console.log(booleanLoggedIn);
 
 // ****** note :- *********
@@ -52,7 +52,11 @@ let booleanLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "skanda" => true
 
-let somenumber = 33
-let stringNumber = String(somenumber)
-console.log(stringNumber);
-console.log(typeof(stringNumber))
+// let somenumber = 33
+// let stringNumber = String(somenumber)
+// console.log(stringNumber);
+// console.log(typeof(stringNumber))
+
+let a = "33";
+let b = 33;
+console.log(a==b);

@@ -1,18 +1,22 @@
+body {
+    background-color: black;
+}
+
 h1 {
-    background-color: #f57878;
+    background-color: brown;
 }
 
 .container {
-    color: rgb(61, 203, 61);
+    color: green;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 
-.card-add {
+.card {
     width: 100px;
     height: 120px;
-    background-color: hotpink;
+    background-color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +24,13 @@ h1 {
     font-size: 36px;
 }
 
-.card-add {
+.add-card {
     cursor: pointer;
+    background-color: cadetblue;
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
 }

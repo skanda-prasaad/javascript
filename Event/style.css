@@ -1,0 +1,25 @@
+h1 {
+    background-color: #f57878;
+}
+
+.container {
+    color: rgb(61, 203, 61);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card-add {
+    width: 100px;
+    height: 120px;
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 36px;
+}
+
+.card-add {
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 20px 20px;
+}
+
+#box{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 20px;
+}
+
+.boxes{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(234, 215, 215);
+    cursor: pointer;
+}
+
+h3{
+    display: none;
+    width: 50%;
+    margin: 10px;
+}

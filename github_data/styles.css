@@ -1,0 +1,27 @@
+
+.title {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+.cards{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.cards img{
+    width: 50%;
+    height: auto;
+} 
